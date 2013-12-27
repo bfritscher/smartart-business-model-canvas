@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layoutDefHdr 
+	uniqueId="urn:microsoft.com/office/officeart/2005/8/layout/MSDNMagExample" 
+	xmlns="http://schemas.openxmlformats.org/drawingml/2006/diagram">
+
+	<title val="MSDN Magazine Example" />
+	<desc val="Example diagram from MSDN magazine article on SmartArt Graphics extensibility." />
+	<catLst>
+		<cat type="other" pri="10000" />
+	</catLst>
+	
+</layoutDefHdr>

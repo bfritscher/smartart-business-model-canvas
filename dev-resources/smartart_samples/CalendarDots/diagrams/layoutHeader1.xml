@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layoutDefHdr xmlns="http://schemas.openxmlformats.org/drawingml/2006/diagram" uniqueId="urn:diagrams.loki3.com/CalendarDots">
+	<title val="Calendar Dots" />
+	<desc val="Use for showing a simple calendar of events, with emphasis on the date. Level 1 text is the date and Level 2 text represents the associated event." />
+	<catLst>
+		<cat type="other" pri="1900" />
+	</catLst>
+</layoutDefHdr>

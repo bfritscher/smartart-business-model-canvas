@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This work is licensed under a Creative Commons Attribution 2.5 License.
+These diagram files (GLOX) can be freely used and modified.
+If the GLOX is modified and redistributed, please include an attribution to the author, Scott Sherman.
+-->
+<!--<rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<Work rdf:about="">
+		<license rdf:resource="http://creativecommons.org/licenses/by/2.5/" />
+		<dc:description>Graphic Layout file for SmartArt</dc:description>
+		<dc:creator><Agent><dc:title>Scott Sherman</dc:title></Agent></dc:creator>
+	</Work>
+	<License rdf:about="http://creativecommons.org/licenses/by/2.5/">
+		<permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+		<permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+		<requires rdf:resource="http://web.resource.org/cc/Notice"/>
+		<requires rdf:resource="http://web.resource.org/cc/Attribution"/>
+		<permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+	</License>
+</rdf:RDF> -->
+
+<layoutDef xmlns="http://schemas.openxmlformats.org/drawingml/2006/diagram" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+	<sampData>
+		<dataModel>
+			<ptLst>
+				<pt modelId="0" type="doc" />
+				<pt modelId="1" type="node"> <t> <a:bodyPr /> <a:p> <a:r> <a:t>1</a:t> </a:r> </a:p> </t> </pt>
+				<pt modelId="2" type="node"> <t> <a:bodyPr /> <a:p> <a:r> <a:t>2</a:t> </a:r> </a:p> </t> </pt>
+				<pt modelId="3" type="node"> <t> <a:bodyPr /> <a:p> <a:r> <a:t>3</a:t> </a:r> </a:p> </t> </pt>
+				<pt modelId="4" type="node"> <t> <a:bodyPr /> <a:p> <a:r> <a:t>4</a:t> </a:r> </a:p> </t> </pt>
+				<pt modelId="5" type="node"> <t> <a:bodyPr /> <a:p> <a:r> <a:t>5</a:t> </a:r> </a:p> </t> </pt>
+				<pt modelId="6" type="node"> <t> <a:bodyPr /> <a:p> <a:r> <a:t>6</a:t> </a:r> </a:p> </t> </pt>
+				<pt modelId="7" type="node"> <t> <a:bodyPr /> <a:p> <a:r> <a:t>7</a:t> </a:r> </a:p> </t> </pt>
+				<pt modelId="8" type="node"> <t> <a:bodyPr /> <a:p> <a:r> <a:t>8</a:t> </a:r> </a:p> </t> </pt>
+				<pt modelId="9" type="node"> <t> <a:bodyPr /> <a:p> <a:r> <a:t>9</a:t> </a:r> </a:p> </t> </pt>
+				<pt modelId="10" type="node"> <t> <a:bodyPr /> <a:p> <a:r> <a:t>10</a:t> </a:r> </a:p> </t> </pt>
+				<pt modelId="11" type="node"> <t> <a:bodyPr /> <a:p> <a:r> <a:t>11</a:t> </a:r> </a:p> </t> </pt>
+				<pt modelId="12" type="node"> <t> <a:bodyPr /> <a:p> <a:r> <a:t>12</a:t> </a:r> </a:p> </t> </pt>
+				<pt modelId="13" type="node"> <t> <a:bodyPr /> <a:p> <a:r> <a:t>13</a:t> </a:r> </a:p> </t> </pt>
+				<pt modelId="14" type="node"> <t> <a:bodyPr /> <a:p> <a:r> <a:t>14</a:t> </a:r> </a:p> </t> </pt>
+				<pt modelId="15" type="node"> <t> <a:bodyPr /> <a:p> <a:r> <a:t>15</a:t> </a:r> </a:p> </t> </pt>
+				<pt modelId="16" type="node"> <t> <a:bodyPr /> <a:p> <a:r> <a:t>16</a:t> </a:r> </a:p> </t> </pt>
+				<pt modelId="17" type="node"> <t> <a:bodyPr /> <a:p> <a:r> <a:t>17</a:t> </a:r> </a:p> </t> </pt>
+				<pt modelId="18" type="node"> <t> <a:bodyPr /> <a:p> <a:r> <a:t>18</a:t> </a:r> </a:p> </t> </pt>
+				<pt modelId="19" type="node"> <t> <a:bodyPr /> <a:p> <a:r> <a:t>19</a:t> </a:r> </a:p> </t> </pt>
+				<pt modelId="20" type="node"> <t> <a:bodyPr /> <a:p> <a:r> <a:t>20</a:t> </a:r> </a:p> </t> </pt>
+				<pt modelId="21" type="node"> <t> <a:bodyPr /> <a:p> <a:r> <a:t>21</a:t> </a:r> </a:p> </t> </pt>
+				<pt modelId="22" type="node"> <t> <a:bodyPr /> <a:p> <a:r> <a:t>22</a:t> </a:r> </a:p> </t> </pt>
+				<pt modelId="23" type="node"> <t> <a:bodyPr /> <a:p> <a:r> <a:t>23</a:t> </a:r> </a:p> </t> </pt>
+				<pt modelId="24" type="node"> <t> <a:bodyPr /> <a:p> <a:r> <a:t>24</a:t> </a:r> </a:p> </t> </pt>
+				<pt modelId="25" type="node"> <t> <a:bodyPr /> <a:p> <a:r> <a:t>25</a:t> </a:r> </a:p> </t> </pt>
+				<pt modelId="26" type="node"> <t> <a:bodyPr /> <a:p> <a:r> <a:t>26</a:t> </a:r> </a:p> </t> </pt>
+				<pt modelId="27" type="node"> <t> <a:bodyPr /> <a:p> <a:r> <a:t>27</a:t> </a:r> </a:p> </t> </pt>
+				<pt modelId="28" type="node"> <t> <a:bodyPr /> <a:p> <a:r> <a:t>28</a:t> </a:r> </a:p> </t> </pt>
+				<pt modelId="29" type="node"> <t> <a:bodyPr /> <a:p> <a:r> <a:t>29</a:t> </a:r> </a:p> </t> </pt>
+				<pt modelId="30" type="node"> <t> <a:bodyPr /> <a:p> <a:r> <a:t>30</a:t> </a:r> </a:p> </t> </pt>
+			</ptLst>
+			<cxnLst>
+				<cxn modelId="101" type="parOf" srcId="0" destId="1" srcOrd="0" destOrd="0" presId="" />
+				<cxn modelId="102" type="parOf" srcId="0" destId="2" srcOrd="1" destOrd="0" presId="" />
+				<cxn modelId="103" type="parOf" srcId="0" destId="3" srcOrd="2" destOrd="0" presId="" />
+				<cxn modelId="104" type="parOf" srcId="0" destId="4" srcOrd="3" destOrd="0" presId="" />
+				<cxn modelId="105" type="parOf" srcId="0" destId="5" srcOrd="4" destOrd="0" presId="" />
+				<cxn modelId="106" type="parOf" srcId="0" destId="6" srcOrd="5" destOrd="0" presId="" />
+				<cxn modelId="107" type="parOf" srcId="0" destId="7" srcOrd="6" destOrd="0" presId="" />
+				<cxn modelId="108" type="parOf" srcId="0" destId="8" srcOrd="7" destOrd="0" presId="" />
+				<cxn modelId="109" type="parOf" srcId="0" destId="9" srcOrd="8" destOrd="0" presId="" />
+				<cxn modelId="110" type="parOf" srcId="0" destId="10" srcOrd="9" destOrd="0" presId="" />
+				<cxn modelId="111" type="parOf" srcId="0" destId="11" srcOrd="10" destOrd="0" presId="" />
+				<cxn modelId="112" type="parOf" srcId="0" destId="12" srcOrd="11" destOrd="0" presId="" />
+				<cxn modelId="113" type="parOf" srcId="0" destId="13" srcOrd="12" destOrd="0" presId="" />
+				<cxn modelId="114" type="parOf" srcId="0" destId="14" srcOrd="13" destOrd="0" presId="" />
+				<cxn modelId="115" type="parOf" srcId="0" destId="15" srcOrd="14" destOrd="0" presId="" />
+				<cxn modelId="116" type="parOf" srcId="0" destId="16" srcOrd="15" destOrd="0" presId="" />
+				<cxn modelId="117" type="parOf" srcId="0" destId="17" srcOrd="16" destOrd="0" presId="" />
+				<cxn modelId="118" type="parOf" srcId="0" destId="18" srcOrd="17" destOrd="0" presId="" />
+				<cxn modelId="119" type="parOf" srcId="0" destId="19" srcOrd="18" destOrd="0" presId="" />
+				<cxn modelId="120" type="parOf" srcId="0" destId="20" srcOrd="19" destOrd="0" presId="" />
+				<cxn modelId="121" type="parOf" srcId="0" destId="21" srcOrd="20" destOrd="0" presId="" />
+				<cxn modelId="122" type="parOf" srcId="0" destId="22" srcOrd="21" destOrd="0" presId="" />
+				<cxn modelId="123" type="parOf" srcId="0" destId="23" srcOrd="22" destOrd="0" presId="" />
+				<cxn modelId="124" type="parOf" srcId="0" destId="24" srcOrd="23" destOrd="0" presId="" />
+				<cxn modelId="125" type="parOf" srcId="0" destId="25" srcOrd="24" destOrd="0" presId="" />
+				<cxn modelId="126" type="parOf" srcId="0" destId="26" srcOrd="25" destOrd="0" presId="" />
+				<cxn modelId="127" type="parOf" srcId="0" destId="27" srcOrd="26" destOrd="0" presId="" />
+				<cxn modelId="128" type="parOf" srcId="0" destId="28" srcOrd="27" destOrd="0" presId="" />
+				<cxn modelId="129" type="parOf" srcId="0" destId="29" srcOrd="28" destOrd="0" presId="" />
+				<cxn modelId="130" type="parOf" srcId="0" destId="30" srcOrd="29" destOrd="0" presId="" />
+			</cxnLst>
+		</dataModel>
+	</sampData>
+	<styleData>
+		<dataModel>
+			<ptLst>
+				<pt modelId="0" type="doc" />
+				<pt modelId="1" type="node" />
+				<pt modelId="2" type="node" />
+				<pt modelId="3" type="node" />
+			</ptLst>
+			<cxnLst>
+				<cxn modelId="4" type="parOf" srcId="0" destId="1" srcOrd="0" destOrd="0" presId="" />
+				<cxn modelId="5" type="parOf" srcId="0" destId="2" srcOrd="1" destOrd="0" presId="" />
+				<cxn modelId="6" type="parOf" srcId="0" destId="3" srcOrd="2" destOrd="0" presId="" />
+			</cxnLst>
+		</dataModel>
+	</styleData>
+	<clrData>
+		<dataModel>
+			<ptLst>
+				<pt modelId="0" type="doc" />
+				<pt modelId="1" type="node" />
+				<pt modelId="2" type="node" />
+				<pt modelId="3" type="node" />
+			</ptLst>
+			<cxnLst>
+				<cxn modelId="4" type="parOf" srcId="0" destId="1" srcOrd="0" destOrd="0" presId="" />
+				<cxn modelId="5" type="parOf" srcId="0" destId="2" srcOrd="1" destOrd="0" presId="" />
+				<cxn modelId="6" type="parOf" srcId="0" destId="3" srcOrd="2" destOrd="0" presId="" />
+			</cxnLst>
+		</dataModel>
+	</clrData>
+
+	<layoutNode>
+		<alg type="snake">
+			<param type="grDir" val="tL" />
+			<param type="flowDir" val="row" />
+			<param type="bkpt" val="fixed" />
+			<!-- 7 days plus 7 spaces -->
+			<param type="bkPtFixedVal" val="14" />
+		</alg>
+		<shape />
+		<presOf />
+		<constrLst>
+			<constr type="w" for="ch" forName="day" refType="w" />
+			<constr type="h" for="ch" forName="day" refType="w" refFor="ch" refForName="day" fact="0.9" />
+
+			<constr type="w" for="ch" forName="negSp" refType="w" fact="-0.01" />
+			<constr type="h" for="ch" forName="negSp" val="0" />
+
+			<constr op="equ" type="primFontSz" for="des" forName="numberTx" val="65" />
+			<constr op="equ" type="primFontSz" for="des" forName="eventsTx" val="65" />
+		</constrLst>
+		<ruleLst />
+
+		<forEach axis="ch" ptType="node">
+			<layoutNode name="day">
+				<alg type="composite" />
+				<shape />
+				<presOf />
+				<constrLst>
+					<constr type="r" for="ch" forName="eventsSp" refType="w" />
+					<constr type="b" for="ch" forName="eventsSp" refType="h" />
+					<constr type="w" for="ch" forName="eventsSp" refType="w" fact="0.9" />
+					<constr type="h" for="ch" forName="eventsSp" refType="h" fact="0.9" />
+
+					<constr type="l" for="ch" forName="numberTx" val="0" />
+					<constr type="t" for="ch" forName="numberTx" val="0" />
+					<constr type="w" for="ch" forName="numberTx" refType="w" />
+					<constr type="h" for="ch" forName="numberTx" refType="h" />
+					<constr op="lte" type="h" for="ch" forName="numberTx" refType="w" refFor="ch" refForName="numberTx" />
+					<constr op="lte" type="w" for="ch" forName="numberTx" refType="h" refFor="ch" refForName="numberTx" />
+					<constr op="lte" type="w" for="ch" forName="numberTx" refType="w" fact="0.3" />
+					<constr op="lte" type="h" for="ch" forName="numberTx" refType="h" fact="0.3" />
+
+					<constr type="r" for="ch" forName="eventsTx" refType="w" />
+					<constr type="b" for="ch" forName="eventsTx" refType="h" />
+					<constr type="w" for="ch" forName="eventsTx" refType="w" fact="0.9" />
+					<constr type="h" for="ch" forName="eventsTx" refType="h" fact="0.75" />
+				</constrLst>
+				
+				<layoutNode name="eventsSp" styleLbl="bgAccFollowNode1">
+					<varLst>
+						<bulletEnabled val="true" />
+					</varLst>
+					<alg type="sp" />
+					<shape type="rect" />
+					<presOf axis="des" ptType="node" />
+				</layoutNode>
+				
+				<layoutNode name="numberTx">
+					<alg type="tx" />
+					<shape type="ellipse" />
+					<presOf axis="self" ptType="node" />
+					<constrLst>
+						<constr type="lMarg" val="0" />
+						<constr type="rMarg" val="0" />
+						<constr type="tMarg" val="0" />
+						<constr type="bMarg" val="0" />
+					</constrLst>
+					<ruleLst>
+						<rule type="primFontSz" val="5" />
+					</ruleLst>
+				</layoutNode>
+
+				<layoutNode name="eventsTx" styleLbl="alignAccFollowNode1">
+					<varLst>
+						<bulletEnabled val="true" />
+					</varLst>
+					<alg type="tx">
+						<param type="stBulletLvl" val="1" />
+					</alg>
+					<shape type="rect" hideGeom="true" />
+					<presOf axis="des" ptType="node" />
+					<constrLst>
+						<constr type="secFontSz" refType="primFontSz" />
+					</constrLst>
+					<ruleLst>
+						<rule type="primFontSz" val="5" />
+					</ruleLst>
+				</layoutNode>
+			</layoutNode>
+
+			<layoutNode name="negSp">
+				<alg type="sp" />
+				<shape />
+				<presOf />
+			</layoutNode>
+		</forEach>
+	</layoutNode>
+</layoutDef>

@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layoutDef xmlns="http://schemas.openxmlformats.org/drawingml/2006/diagram" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+  <sampData>
+    <!-- Optional: This section contains default data. -->
+    <dataModel>
+      <ptLst>
+        <pt modelId="0" type="doc" />
+        <pt modelId="1" type="node">
+          <t>
+            <a:bodyPr />
+            <a:lstStyle />
+            <a:p>
+              <a:r>
+                <a:t>Value Proposition</a:t>
+              </a:r>
+            </a:p>
+          </t>
+        </pt>
+        <pt modelId="11" type="node">
+          <prSet phldr="1" phldrT="Who do you trust?"/>
+        </pt>
+        <pt modelId="2" type="node">
+          <t>
+            <a:bodyPr />
+            <a:lstStyle />
+            <a:p>
+              <a:r>
+                <a:t>Customer Segments</a:t>
+              </a:r>
+            </a:p>
+          </t>
+        </pt>
+        <pt modelId="3" type="node">
+          <t>
+            <a:bodyPr />
+            <a:lstStyle />
+            <a:p>
+              <a:r>
+                <a:t>Channels</a:t>
+              </a:r>
+            </a:p>
+          </t>
+        </pt>
+        <pt modelId="4" type="node">
+          <t>
+            <a:bodyPr />
+            <a:lstStyle />
+            <a:p>
+              <a:r>
+                <a:t>Relationships</a:t>
+              </a:r>
+            </a:p>
+          </t>
+        </pt>
+        <pt modelId="5" type="node">
+          <t>
+            <a:bodyPr />
+            <a:lstStyle />
+            <a:p>
+              <a:r>
+                <a:t>Revenue</a:t>
+              </a:r>
+            </a:p>
+          </t>
+        </pt>
+        <pt modelId="6" type="node">
+          <t>
+            <a:bodyPr />
+            <a:lstStyle />
+            <a:p>
+              <a:r>
+                <a:t>Resources</a:t>
+              </a:r>
+            </a:p>
+          </t>
+        </pt>
+        <pt modelId="7" type="node">
+          <t>
+            <a:bodyPr />
+            <a:lstStyle />
+            <a:p>
+              <a:r>
+                <a:t>Activity</a:t>
+              </a:r>
+            </a:p>
+          </t>
+        </pt>
+        <pt modelId="8" type="node">
+          <t>
+            <a:bodyPr />
+            <a:lstStyle />
+            <a:p>
+              <a:r>
+                <a:t>Partners</a:t>
+              </a:r>
+            </a:p>
+          </t>
+        </pt>
+        <pt modelId="9" type="node">
+          <t>
+            <a:bodyPr />
+            <a:lstStyle />
+            <a:p>
+              <a:r>
+                <a:t>Costs</a:t>
+              </a:r>
+            </a:p>
+          </t>
+        </pt>
+      </ptLst>
+      <cxnLst>
+        <cxn modelId="100" type="parOf" srcId="0" destId="1" srcOrd="0" destOrd="0" presId="" />
+        <cxn modelId="200" type="parOf" srcId="0" destId="2" srcOrd="1" destOrd="0" presId="" />
+        <cxn modelId="300" type="parOf" srcId="0" destId="3" srcOrd="2" destOrd="0" presId="" />
+        <cxn modelId="400" type="parOf" srcId="0" destId="4" srcOrd="3" destOrd="0" presId="" />
+        <cxn modelId="500" type="parOf" srcId="0" destId="5" srcOrd="4" destOrd="0" presId="" />
+        <cxn modelId="600" type="parOf" srcId="0" destId="6" srcOrd="5" destOrd="0" presId="" />
+        <cxn modelId="700" type="parOf" srcId="0" destId="7" srcOrd="6" destOrd="0" presId="" />
+        <cxn modelId="800" type="parOf" srcId="0" destId="8" srcOrd="7" destOrd="0" presId="" />
+        <cxn modelId="900" type="parOf" srcId="0" destId="9" srcOrd="8" destOrd="0" presId="" />
+        <cxn modelId="101" type="parOf" srcId="1" destId="11" srcOrd="0" destOrd="0" presId="" />
+
+      </cxnLst>
+    </dataModel>
+  </sampData>
+  <styleData>
+    <!-- Optional: This section is used to generate thumbnails in the quickstyle gallery.-->
+  </styleData>
+  <clrData>
+    <!-- Optional: This section is used to generate thumbnails in the color transforms gallery.-->
+  </clrData>
+
+  <layoutNode name="root"> 
+		<alg type="composite"/>
+		<presOf />
+		<shape />
+		<constrLst>
+			<constr type="w" for="ch" forName="partner" refType="w" fact=".2" />
+			<constr type="h" for="ch" forName="partner" refType="h" fact=".66" />
+			<constr type="l" for="ch" forName="partner" val="0"  />
+			<constr type="t" for="ch" forName="partner" val="0" />
+			
+			<constr type="w" for="ch" forName="activity" refType="w" fact=".2" />
+			<constr type="h" for="ch" forName="activity" refType="h" fact=".33" />
+			<constr type="l" for="ch" forName="activity" refType="w" fact=".2" />
+			<constr type="t" for="ch" forName="activity" val="0" />
+			
+			<constr type="w" for="ch" forName="offer" refType="w" fact=".2" />
+			<constr type="h" for="ch" forName="offer" refType="h" fact=".66" />
+			<constr type="l" for="ch" forName="offer" refType="w" fact=".4" />
+			<constr type="t" for="ch" forName="offer" val="0" />
+
+			<constr type="w" for="ch" forName="relationship" refType="w" fact=".2" />
+			<constr type="h" for="ch" forName="relationship" refType="h" fact=".33" />
+			<constr type="l" for="ch" forName="relationship" refType="w" fact=".6" />
+			<constr type="t" for="ch" forName="relationship" val="0" />
+			
+			<constr type="w" for="ch" forName="client" refType="w" fact=".2" />
+			<constr type="h" for="ch" forName="client" refType="h" fact=".66" />
+			<constr type="l" for="ch" forName="client" refType="w" fact=".8" />
+			<constr type="t" for="ch" forName="client" val="0" />
+			
+			<constr type="w" for="ch" forName="resource" refType="w" fact=".2" />
+			<constr type="h" for="ch" forName="resource" refType="h" fact=".33" />
+			<constr type="l" for="ch" forName="resource" refType="w" fact=".2" />
+			<constr type="t" for="ch" forName="resource" refType="h" fact=".33" />
+			
+			<constr type="w" for="ch" forName="channel" refType="w" fact=".2" />
+			<constr type="h" for="ch" forName="channel" refType="h" fact=".33" />
+			<constr type="l" for="ch" forName="channel" refType="w" fact=".6" />
+			<constr type="t" for="ch" forName="channel" refType="h" fact=".33" />
+			
+			<constr type="w" for="ch" forName="cost" refType="w" fact=".4" />
+			<constr type="h" for="ch" forName="cost" refType="h" fact=".33" />
+			<constr type="l" for="ch" forName="cost" val="0" />
+			<constr type="t" for="ch" forName="cost" refType="h" fact=".66" />
+			
+			<constr type="w" for="ch" forName="logo" refType="w" fact=".2" />
+			<constr type="h" for="ch" forName="logo" refType="h" fact=".33" />
+			<constr type="l" for="ch" forName="logo" refType="w" fact=".4" />
+			<constr type="t" for="ch" forName="logo" refType="h" fact=".66" />
+			
+			<constr type="w" for="ch" forName="revenue" refType="w" fact=".4" />
+			<constr type="h" for="ch" forName="revenue" refType="h" fact=".33" />
+			<constr type="l" for="ch" forName="revenue" refType="w" fact=".6" />
+			<constr type="t" for="ch" forName="revenue" refType="h" fact=".66" />
+		</constrLst>
+		<ruleLst />		
+		<!--The shape receives the first semantic data.-->
+		<forEach axis="ch" ptType="node" st="8" cnt="1">
+			<layoutNode name="partner">
+				<alg type="composite" />
+				<presOf />
+				<shape />
+				<constrLst>
+					<!--constraints for blockElement -->
+					<constr type="w" for="ch" forName="blockElement" refType="w" fact="1" />
+					<constr type="h" for="ch" forName="blockElement" refType="h" fact="1" />
+					<constr type="l" for="ch" forName="blockElement" val="0" />
+					<constr type="t" for="ch" forName="blockElement" val="0" />
+					<!--constraints for parentText -->
+					<constr type="w" for="ch" forName="parentText" refType="w" fact="1" />
+					<constr type="h" for="ch" forName="parentText" refType="h" fact=".175" />
+					<constr type="l" for="ch" forName="parentText" val="0" />
+					<constr type="t" for="ch" forName="parentText" val="0" />
+					<!--constraints for childText -->
+					<constr type="w" for="ch" forName="childText" refType="w" fact="1" />
+					<constr type="h" for="ch" forName="childText" refType="h" fact=".8" />
+					<constr type="l" for="ch" forName="childText" val="0" />
+					<constr type="t" for="ch" forName="childText" refType="h" fact=".2" />
+				</constrLst>
+				<ruleLst />	
+				<layoutNode name="blockElement" styleLbl="alignNode1" >
+					<alg type="sp" />
+					<presOf axis="self" ptType="node"/> 
+					<shape type="rect">
+						<adjLst>
+							<adj idx="1" val="0.1" />
+						</adjLst>
+					</shape>
+					<constrLst />
+					<ruleLst />
+				</layoutNode>
+				<!-- block title -->
+				<layoutNode name="parentText" styleLbl="alignNode1" >
+					<alg type="tx" />
+					<presOf axis="self" ptType="node"/> 
+					<shape type="rect" hideGeom="true" />
+					<constrLst />
+					<ruleLst />
+				</layoutNode>
+				<layoutNode name="childText" styleLbl="alignNode1" >
+					<alg type="tx">
+						<param type="stBulletLvl" val="1" />
+						<param type="parTxLTRAlign" val="l" />
+						<param type="parTxRTLAlign" val="r" />
+						<param type="txAnchorVert" val="t" />
+					</alg>
+					<presOf axis="des" ptType="node" />
+					<shape type="rect" hideGeom="true" />
+					<constrLst />
+					<ruleLst />
+				</layoutNode>
+			</layoutNode> 
+		</forEach>
+
+		<layoutNode name="activity">
+			<alg type="tx"/>
+			<shape type="rect"/>
+			<presOf axis="ch" st="7" cnt="1" ptType="node"/> 
+		</layoutNode> 
+		
+		<layoutNode name="offer">
+			<alg type="tx"/>
+			<shape type="rect"/>
+			<presOf axis="ch" st="1" cnt="1" ptType="node"/> 
+		</layoutNode>
+		
+		<layoutNode name="relationship">
+			<alg type="tx"/>
+			<shape type="rect"/>
+			<presOf axis="ch" st="4" cnt="1" ptType="node"/> 
+		</layoutNode>
+
+		<layoutNode name="client">
+			<alg type="tx"/>
+			<shape type="rect"/>
+			<presOf axis="ch" st="2" cnt="1" ptType="node"/> 
+		</layoutNode>
+		
+		<layoutNode name="resource">
+			<alg type="tx"/>
+			<shape type="rect"/>
+			<presOf axis="ch" st="6" cnt="1" ptType="node"/> 
+		</layoutNode> 
+
+		<layoutNode name="channel">
+			<alg type="tx"/>
+			<shape type="rect"/>
+			<presOf axis="ch" st="3" cnt="1" ptType="node"/> 
+		</layoutNode> 
+
+		<layoutNode name="cost">
+			<alg type="tx"/>
+			<shape type="rect"/>
+			<presOf axis="ch" st="9" cnt="1" ptType="node"/> 
+		</layoutNode>
+		
+		<layoutNode name="logo" styleLbl="alignImgPlace1">
+			<alg type="sp"/>
+			<shape type="rect" blipPhldr="1"/>
+			<presOf /> 
+		</layoutNode> 	
+		
+		<layoutNode name="revenue">
+			<alg type="tx"/>
+			<shape type="rect"/>
+			<presOf axis="ch" st="5" cnt="1" ptType="node"/> 
+		</layoutNode> 
+	</layoutNode>
+</layoutDef>

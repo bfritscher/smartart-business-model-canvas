@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layoutDef xmlns="http://schemas.openxmlformats.org/drawingml/2006/diagram">
+
+	<styleData>
+		<dataModel>
+			<ptLst>
+				<pt modelId="0" type="doc" />
+				<pt modelId="1" type="node" />
+				<pt modelId="2" type="node" />
+			</ptLst>
+			<cxnLst>
+				<cxn modelId="4" type="parOf" srcId="0" destId="1" srcOrd="0" destOrd="0" presId="" />
+				<cxn modelId="5" type="parOf" srcId="0" destId="2" srcOrd="1" destOrd="0" presId="" />
+			</cxnLst>
+		</dataModel>
+	</styleData>
+	<clrData>
+		<dataModel>
+			<ptLst>
+				<pt modelId="0" type="doc" />
+				<pt modelId="1" type="node" />
+				<pt modelId="2" type="node" />
+				<pt modelId="3" type="node" />
+				<pt modelId="4" type="node" />
+			</ptLst>
+			<cxnLst>
+				<cxn modelId="5" type="parOf" srcId="0" destId="1" srcOrd="0" destOrd="0" presId="" />
+				<cxn modelId="6" type="parOf" srcId="0" destId="2" srcOrd="1" destOrd="0" presId="" />
+				<cxn modelId="7" type="parOf" srcId="0" destId="3" srcOrd="2" destOrd="0" presId="" />
+				<cxn modelId="8" type="parOf" srcId="0" destId="4" srcOrd="3" destOrd="0" presId="" />
+			</cxnLst>
+		</dataModel>
+	</clrData>
+
+	<layoutNode name="diagram">
+		<alg type="lin" />
+		<presOf />
+		<shape />
+	<constrLst>
+		<constr type="w" for="ch" forName="composite" refType="w" fact="1" />
+		<constr type="h" for="ch" forName="composite" refType="h" fact="1" />
+		<constr type="w" for="ch" forName="space" refType="w" refFor="ch" refForName="composite" fact=".1" />
+		<constr op="equ" type="primFontSz" for="des" ptType="node" val="65" />
+	</constrLst>
+	<ruleLst />
+		<forEach axis="ch" ptType="node">
+			<layoutNode name="composite">
+				<alg type="composite" />
+				<presOf />
+				<shape />
+				<constrLst>
+					<!--constraints for roundRect -->
+					<constr type="w" for="ch" forName="roundRect" refType="w" fact="1" />
+					<constr type="h" for="ch" forName="roundRect" refType="h" fact="1" />
+					<constr type="l" for="ch" forName="roundRect" val="0" />
+					<constr type="t" for="ch" forName="roundRect" val="0" />
+					<!--constraints for parentText -->
+					<constr type="w" for="ch" forName="parentText" refType="w" fact="1" />
+					<constr type="h" for="ch" forName="parentText" refType="h" fact=".175" />
+					<constr type="l" for="ch" forName="parentText" val="0" />
+					<constr type="t" for="ch" forName="parentText" val="0" />
+					<!--constraints for whiteRect -->
+					<constr type="w" for="ch" forName="whiteRect" refType="w" fact="1" />
+					<constr type="h" for="ch" forName="whiteRect" refType="h" fact=".025" />
+					<constr type="l" for="ch" forName="whiteRect" val="0" />
+					<constr type="t" for="ch" forName="whiteRect" refType="h" fact=".175" />
+					<!--constraints for childText -->
+					<constr type="w" for="ch" forName="childText" refType="w" fact="1" />
+					<constr type="h" for="ch" forName="childText" refType="h" fact=".8" />
+					<constr type="l" for="ch" forName="childText" val="0" />
+					<constr type="t" for="ch" forName="childText" refType="h" fact=".2" />
+				</constrLst>
+				<ruleLst />
+				<layoutNode name="roundRect" styleLbl="alignNode1" >
+					<alg type="sp" />
+					<presOf axis="self" />
+					<shape type="roundRect">
+						<adjLst>
+							<adj idx="1" val="0.1" />
+						</adjLst>
+					</shape>
+					<constrLst />
+					<ruleLst />
+				</layoutNode>
+				<layoutNode name="parentText" styleLbl="alignNode1" >
+					<alg type="tx" />
+					<presOf axis="self" />
+					<shape type="rect" hideGeom="true" />
+					<constrLst />
+					<ruleLst>
+						<rule type="primFontSz" val="5" />
+					</ruleLst>
+				</layoutNode>
+				<layoutNode name="whiteRect" styleLbl="fgAcc1" >
+					<alg type="sp" />
+					<presOf />
+					<shape type="rect" />
+					<constrLst />
+					<ruleLst />
+				</layoutNode>
+				<layoutNode name="childText" styleLbl="alignNode1" >
+					<alg type="tx">
+						<param type="stBulletLvl" val="1" />
+						<param type="parTxLTRAlign" val="l" />
+						<param type="parTxRTLAlign" val="r" />
+						<param type="txAnchorVert" val="t" />
+					</alg>
+					<presOf axis="des" ptType="node" />
+					<shape type="rect" hideGeom="true" />
+					<constrLst>
+						<constr type="secFontSz" refType="primFontSz" />
+					</constrLst>
+					<ruleLst>
+						<rule type="primFontSz" val="5" />
+					</ruleLst>
+				</layoutNode>
+			</layoutNode>
+			<forEach axis="followSib" ptType="sibTrans" cnt="1">
+				<layoutNode name="space">
+					<alg type="sp" />
+					<presOf axis="self" />
+					<shape />
+					<constrLst />
+					<ruleLst />
+				</layoutNode>
+			</forEach>
+		</forEach>
+	</layoutNode>
+</layoutDef>
